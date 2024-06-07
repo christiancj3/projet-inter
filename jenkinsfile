@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'python  dateEnPython.py'
+                sh 'python3  dateEnPython.py'
             }
         }
         stage('ls') {
